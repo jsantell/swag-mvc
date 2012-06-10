@@ -1,0 +1,25 @@
+{
+  "name" : "swag-mvc",
+  "description" : "Hands off MVC for node.js",
+  "version" : "0.1.0",
+  "main" : "index.js",
+  "dependencies" : {
+    "inflection" : ">= 1.1.1"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/jsantell/swag-mvc"
+  },
+  "keywords" : [
+    "mvc",
+    "routing",
+    "controllers",
+    "models"
+  ],
+  "author" : {
+    "name" : "Jordan Santell",
+    "url" : "http://github.com/jsantell"
+  },
+  "license" : "MIT",
+  "engines" : ["node >= 0.6.12"]
+}
