@@ -43,7 +43,7 @@ Example
   module.exports = function ( app, User, args ) {
     app.get( '/users', function ( req, res, next ) {
       User.find( {}, ( err, users ) {
-        if ( !err ) { res.render( 'users/idnex', { users: users } }
+        if ( !err ) { res.render( 'users/index', { users: users } }
       });
     });
 
@@ -66,3 +66,8 @@ Example
     return UserSchema;
   };
 ```
+
+Testing
+---
+
+Run `node tests/runTests.js` from project root -- testing uses `nodeunit`
