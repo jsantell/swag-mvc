@@ -3,6 +3,10 @@ swag-mvc
 
 connecting your models and routes in node.js
 
+### Installing
+
+* `npm install swag-mvc`
+
 ### Creating
 
 * `var mvc = require('mvc')( app )` Pass in `express.createServer()`
