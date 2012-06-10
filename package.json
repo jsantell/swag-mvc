@@ -1,6 +1,6 @@
 {
   "name" : "swag-mvc",
-  "description" : "Hands off MVC for node.js",
+  "description" : "connecting your models and routes in node.js",
   "version" : "0.1.0",
   "main" : "index.js",
   "dependencies" : {
