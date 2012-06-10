@@ -1,11 +1,11 @@
 swag-mvc
 ======
 
-hands off mvc for node.js
+connecting your models and routes in node.js
 
 ### Creating
 
-* `require('mvc')( app )` Pass in `express.createServer()`
+* `var mvc = require('mvc')( app )` Pass in `express.createServer()`
 
 ### Models
 
@@ -13,7 +13,7 @@ hands off mvc for node.js
 
 ### Routes
 
-* `mvc.initRoutes( routes, args )` sets up the routes in `dir`, defined with an array of strings `routes`, passing in `app`, corresponding model if applicable, followed by additional `args`.
+* `mvc.initRoutes( routes, dir, args )` sets up the routes in `dir`, defined with an array of strings `routes`, passing in `app`, corresponding model if applicable, followed by additional `args`.
 
 Example
 ---
